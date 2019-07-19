@@ -1,0 +1,191 @@
+.titulo
+{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 2.5em;
+    background-color: rgb(161, 0, 0, 0.9);
+    width: 100vw;
+    height: 18vh;
+    max-width: 100%;
+    
+    
+}
+.entrega{
+   border-radius: 50%;
+    width: 10vw;
+    border-style: solid;
+    border-width: 5px;
+
+
+}
+
+.logo
+{
+    width: 80px;
+    margin-top: 20px;
+    
+}
+
+body{
+    background-image: url("https://img.elo7.com.br/product/main/13E7F3C/papel-de-parede-adesivo-pizza-adesivo-para-moveis.jpg");
+    background-repeat: repeat;   
+    
+}
+.espe{
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 1.8em;
+    width: 100vw;
+    height:5vh;
+}
+h2:hover{
+    color: green;
+}
+.caixaTexto{
+    background-color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.5em;
+    width: 40vw;
+    height: 6vh;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 10px;
+    
+
+}
+.lema{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.caixaTexto:hover{
+	 animation: shake 0.5s;
+	animation-iteration-count: infinite; 	 
+}
+
+.menu{
+    margin-top: 7px;
+    max-width: 70%;
+    width: 40vw;
+}
+
+.dMenu{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.doces{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    font-size: 1.8em;
+    width: 100vw;
+    height:5vh;
+}
+
+.IDoces{
+    width: 20vw;
+    height: 20vh;
+    margin-top: 5px;
+	display: block;
+}
+.imgDoces{
+    display: flex;
+    justify-content: space-around;
+	
+	
+}
+.cont{
+	position: relative;
+  
+}
+.cont:hover .overlay {
+  opacity: 1;
+}
+.promo{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    font-size: 1.8em;
+    width: 100vw;
+    height:5vh; 
+}
+.ImgPromo{
+    display: flex;
+    justify-content: space-around;
+}
+.IPromo{
+    width: 35vw;
+    height: 30vh;
+    margin-top: 5px;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:  rgb(161, 0, 0, 0.9);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@media only screen and (max-width: 800px)
+{
+    .imgDoces{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:  center;    
+    }
+    .IDoces{
+    width: 30vw;
+    }
+    .caixaTexto{
+        font-size: 1.3em;
+    }
+	.ImgPromo{
+		display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:  center;
+		
+	}
+	 .IPromo{
+		  width: 60vw;
+	 }
+	 .caixaTexto{
+		  width: 100vw;
+	 }
+	 
+	 
+}
